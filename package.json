@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/manugando/gulp-web-img-optimizer#readme",
   "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
     "gulp-imagemin": "^3.1.1",
     "imagemin-jpegoptim": "^5.0.0",
     "imagemin-pngquant": "^5.0.0"

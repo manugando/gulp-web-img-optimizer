@@ -17,5 +17,7 @@ gulp.task('build:img', ['clean:img'], function() {
                 ],
                 {verbose : true}
             ))
-        .pipe(gulp.dest('dist/img'));
+        .pipe(gulp.dest('dist'));
 });
+
+gulp.task('default', ['build:img']);
